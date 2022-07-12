@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color: skyblue;
+    
+}
+/* header-section */
+header{
+    display: flex;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
+    
+}
+.icon{
+    padding-right: 20px;
+}
+.address{
+    padding-right: 20px;
+}
+.email{
+    float: right;
+}
+/* navbar section */
+nav{
+    margin: auto;
+    width: 60%;
+}
+nav> ul{
+    margin: auto;
+    width: 50%;
+    display: flex;
+}
+nav > ul > li{
+    margin: 5px 10px 5px 10px;
+    list-style: none;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.hero{
+    display: flex;
+}
