@@ -183,8 +183,12 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 20px 30px 20px 30px;
-    height: 100px;
+    height: 130px;
     background-color: var(--text-color);
+}
+.details{
+    color: aliceblue;
+    font-size: 18px;
 }
 .subsciption{
     float: right;
@@ -203,4 +207,16 @@ footer{
     font-weight: 700;
     background-color: var(--Special-text-color);
     border-radius: 5px;
+}
+.links{
+    width: 300px;
+    text-align: center;
+}
+ul > li {
+    list-style: none;
+}
+.footer-links{
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration: none;
 }
