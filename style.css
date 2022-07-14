@@ -58,6 +58,24 @@ li > a:hover::after{
     transition: width 0.3s linear;
     margin-top: 10px;
 }
+.drop-down{
+    display: none;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    background-color: lightblue;
+}
+nav > ul > li:hover > ul{
+    display: block;
+}
+.drop-down li {
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+.drop-down > li > a {
+    font-size: 20px;
+    text-decoration: none;
+}
+/* hero-section */
 .hero{
     display: flex;
 }
